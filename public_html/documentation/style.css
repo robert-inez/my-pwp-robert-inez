@@ -1,13 +1,18 @@
 .navbar {
-    background-color: #376F4E !important;
+    background-color: #6F4E37 !important;
     font-weight: bold;
 }
 
 body {
-    background-color: #fffee6;
+    background-color: #FAF9F6;
 }
 
 .pagebreak {
-    background-color: #376F4E;
+    background-color: #6F4E37;
     padding: 5em 0 5em 0;
+}
+
+.dd-coding, icon {
+    height: 50px;
+    width: 50px;
 }
