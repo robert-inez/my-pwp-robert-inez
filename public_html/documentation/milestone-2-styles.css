@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-heading {
+    text-align: center;
+    margin: 0;
+    padding: .5em 0;
+    background-color: #c3073f;
+}
+
+.content-strategy{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    background-color: #FAF9F6;
+    box-shadow: 0 0 10px #333;
+}
