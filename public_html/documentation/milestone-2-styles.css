@@ -15,5 +15,5 @@ html, body {
     margin: 0 auto;
     padding: 1em 1.5em;
     background-color: #FAF9F6;
-    box-shadow: 0 0 10px #333;
+    box-shadow: 0 10px 10px #333;
 }
