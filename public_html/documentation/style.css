@@ -16,7 +16,16 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/*navbar*/
+h1, h2, h3, h4, h5 {
+    font-family: "Didact Gothic";
+}
+
+body p, ul li{
+    font-family: 'Oswald';
+}
+
+
+/*----------------------------navbar-----------------------------*/
 .navbar {
     background: rgb(97,67,133);
     background: linear-gradient(145deg, rgba(97,67,133,1) 0%, rgba(81,99,149,1) 100%);
@@ -30,13 +39,6 @@
     margin: 0 1em;
 }
 
-/*.btn-toggle {*/
-/*    background: rgb(97,67,133);*/
-/*    background: linear-gradient(145deg, rgba(97,67,133,1) 0%, rgba(81,99,149,1) 100%);*/
-/*    font-weight: bold;*/
-/*    font-family: "Didact Gothic";*/
-/*}*/
-
 .navbar li a:hover {
     background: rgba( 149, 81, 133, 0.50 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -49,18 +51,12 @@
 .navbar-brand {
     font-size: 2.5em;
 }
+/*----------------------------navbar-----------------------------*/
 
+/*----------------------------about-me---------------------------*/
 .about-me {
     margin: 5em auto;
     padding: 2em auto;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: "Didact Gothic";
-}
-
-body p, ul li{
-    font-family: 'Oswald';
 }
 
 .about-me a {
@@ -72,7 +68,34 @@ body p, ul li{
     background: #516395;
     border: 1px solid #955185;
     border-radius: 5px;
+    margin: 5.5rem;
 }
+
+/*------Making Contact Button responsive on all platforms-------*/
+@media (max-width: 575.98px) {
+    .about-me a{
+        margin: 0 3.4rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .about-me a{
+        margin: 0 4rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px){
+    .about-me a{
+        margin: 0 -1.1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .about-me a{
+        margin: 0 2.5rem;
+    }
+}
+/*------Making Contact Button responsive on all platforms-------*/
 
 .about-me a:hover {
     background: rgba( 149, 81, 140, 0.75 );
@@ -83,7 +106,10 @@ body p, ul li{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-/*Pagebreaks*/
+
+/*----------------------------about-me---------------------------*/
+
+/*----------------------------pagebreaks-------------------------*/
 .pagebreak {
     background: rgb(97,67,133);
     background: linear-gradient(145deg, rgba(97,67,133,1) 0%, rgba(81,99,149,1) 100%);
@@ -100,15 +126,12 @@ body p, ul li{
     width: 48px;
 }
 
-.bootstrap-icon {
-    height: 44px;
-    width: 44px;
-}
-
 figcaption {
     font-weight: bold;
     color: black !important;
 }
+
+/*----------------------------pagebreaks-------------------------*/
 
 hr {
     border: 0;
@@ -116,7 +139,7 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-/*timeline*/
+/*-----------------------------timeline--------------------------*/
 
 .main-timeline {
     position: relative
@@ -127,7 +150,7 @@ hr {
     display: block;
     width: 2px;
     height: 100%;
-    background: #879AA8;
+    background: #516395;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -142,7 +165,7 @@ hr {
 .main-timeline .timeline:after {
     content: "";
     display: block;
-    clear: both
+    clear: both;
 }
 
 .main-timeline .icon {
@@ -171,12 +194,12 @@ hr {
 
 .main-timeline .icon:before {
     background: #fff;
-    border: 2px solid #37586F;
+    border: 2px solid #614385;
     left: -3px
 }
 
 .main-timeline .icon:after {
-    border: 2px solid #879AA8;
+    border: 2px solid #516395;
     left: 3px
 }
 
@@ -199,7 +222,7 @@ hr {
     content: "";
     width: 36.5%;
     height: 2px;
-    background: #879AA8;
+    background: #516395;
     margin: auto 0;
     position: absolute;
     top: 0;
@@ -232,12 +255,12 @@ hr {
 
 .main-timeline .date-outer:before {
     background: #fff;
-    border: 2px solid #37586F;
+    border: 2px solid #614385;
     left: -6px
 }
 
 .main-timeline .date-outer:after {
-    border: 2px solid #879AA8;
+    border: 2px solid #516395;
     left: 6px
 }
 
@@ -267,7 +290,7 @@ hr {
     display: block;
     font-size: 30px;
     font-weight: 700;
-    color: #37586F;
+    color: #614385;
     line-height: 36px
 }
 
@@ -367,7 +390,47 @@ hr {
     }
 }
 
+/*-----------------------------timeline--------------------------*/
+
+/*-------------------------------form----------------------------*/
+.submit {
+    color: black;
+    background: #516395;
+    border: 1px solid #955185;
+    border-radius: 5px;
+    /*font-weight: bold;*/
+}
+
+.submit:hover {
+    background: rgba( 149, 81, 140, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.reset {
+    color: black;
+    background: #ed2939;
+    border: 1px solid #955185;
+    border-radius: 5px;
+    /*font-weight: bold;*/
+}
+
+.reset:hover {
+    background: rgba( 237, 41, 57, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+/*-------------------------------form----------------------------*/
+
+/*-----------------------------darkmode--------------------------*/
 body.dark-theme {
     color: #eee;
     background: #121212;
 }
+/*-----------------------------darkmode--------------------------*/
