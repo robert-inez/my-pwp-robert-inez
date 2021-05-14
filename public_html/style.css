@@ -68,7 +68,7 @@ body p, ul li{
 .about-me {
     margin: 3em auto;
     padding: 1em auto;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: #eee;
     font-weight: bold;
 }
@@ -144,7 +144,6 @@ body p, ul li{
 .pagebreak {
     background: rgb(97,67,133);
     background: linear-gradient(145deg, rgba(97,67,133,1) 0%, rgba(81,99,149,1) 100%);
-    /*background: rgba( 81, 99, 149, 0.50 );*/
 
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7.0px );
@@ -156,11 +155,22 @@ body p, ul li{
     width: 48px;
 }
 
-figcaption {
-    font-weight: bold;
-    color: black !important;
+.icon-mysql {
+    height: 60px;
+    width: 60px;
 }
 
+figcaption {
+    font-weight: bold;
+}
+
+/*-----------------------------Projects--------------------------*/
+.projects {
+    font-size: 1.25rem;
+}
+
+
+/*-----------------------------Projects--------------------------*/
 /*----------------------------pagebreaks-------------------------*/
 
 hr {
@@ -170,6 +180,15 @@ hr {
 }
 
 /*-----------------------------timeline--------------------------*/
+
+.experience h2 {
+    color: #eee
+}
+
+.experience p, .experience h5{
+    font-size: 1.25rem;
+    color: #eee
+}
 
 .main-timeline {
     position: relative
@@ -224,7 +243,7 @@ hr {
 
 .main-timeline .icon:before {
     background: #fff;
-    border: 2px solid #614385;
+    border: 2px solid #955185;
     left: -3px
 }
 
@@ -285,7 +304,7 @@ hr {
 
 .main-timeline .date-outer:before {
     background: #fff;
-    border: 2px solid #614385;
+    border: 2px solid #955185;
     left: -6px
 }
 
@@ -308,19 +327,20 @@ hr {
     position: absolute;
     top: 27%;
     left: 0;
-    color: black !important;
+    color: #eee !important;
 }
 
 .main-timeline .month {
     font-size: 18px;
-    font-weight: 700
+    font-weight: 700;
+    color: black;
 }
 
 .main-timeline .year {
     display: block;
     font-size: 30px;
     font-weight: 700;
-    color: #614385;
+    color: #955185;
     line-height: 36px
 }
 
@@ -457,6 +477,11 @@ hr {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 /*-------------------------------form----------------------------*/
+
+.affiliation a, .affiliation p {
+    text-decoration: none;
+    color: black;
+}
 
 /*-----------------------------darkmode--------------------------*/
 body.dark-theme {
