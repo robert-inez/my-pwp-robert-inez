@@ -478,9 +478,9 @@ hr {
 }
 /*-------------------------------form----------------------------*/
 
-.affiliation a, .affiliation p {
+.affiliation a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 /*-----------------------------darkmode--------------------------*/
