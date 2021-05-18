@@ -78,11 +78,9 @@ body p, ul li{
     text-transform: uppercase;
     text-align: center;
     padding: .5rem 1rem;
-    border: 1px solid #955185;
+    border: 2px solid #955185;
     border-radius: 10%;
-    margin: 0 1em;
     color: #eee !important;
-    margin: 8rem;
     font-family: 'Oswald';
 }
 
@@ -102,31 +100,6 @@ body p, ul li{
     min-height: 300px;
 }
 
-/*------Making Contact Button responsive on all platforms-------*/
-@media (max-width: 575.98px) {
-    .about-me a{
-        margin: 0 3.4rem;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 768px){
-    .about-me a{
-        margin: 0 4rem;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 991.98px){
-    .about-me a{
-        margin: 0 -1.1rem;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px){
-    .about-me a{
-        margin: 0 2.5rem;
-    }
-}
-/*------Making Contact Button responsive on all platforms-------*/
 
 .about-me a:hover {
     background: rgba( 149, 81, 133, 0.50 );
@@ -144,7 +117,6 @@ body p, ul li{
 .pagebreak {
     background: rgb(97,67,133);
     background: linear-gradient(145deg, rgba(97,67,133,1) 0%, rgba(81,99,149,1) 100%);
-
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 7.0px );
     -webkit-backdrop-filter: blur( 7.0px );
@@ -445,8 +417,8 @@ hr {
 /*-------------------------------form----------------------------*/
 .submit {
     color: black;
-    background: #516395;
-    border: 1px solid #955185;
+    /*background: rgba(81, 99, 149, 0.83);*/
+    border: 2px solid #955185;
     border-radius: 5px;
     /*font-weight: bold;*/
 }
@@ -458,12 +430,17 @@ hr {
     -webkit-backdrop-filter: blur( 10.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /*background: linear-gradient(145deg, rgba(97,67,133,.6) 0%, rgba(81,99,149,.6) 100%);*/
+    /*box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );*/
+    /*backdrop-filter: blur( 10.5px );*/
+    /*-webkit-backdrop-filter: blur( 10.5px );*/
+    /*border-radius: 10px;*/
 }
 
 .reset {
     color: black;
-    background: #ed2939;
-    border: 1px solid #955185;
+    /*background: #ed2939;*/
+    border: 2px solid #ED2939BF;
     border-radius: 5px;
     /*font-weight: bold;*/
 }
