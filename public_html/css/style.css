@@ -70,7 +70,6 @@ body p, ul li{
 
 .navbar-brand {
     width: 75px;
-    /*width: 150px;*/
 }
 
 .navbar-brand h1 {
@@ -85,7 +84,7 @@ body p, ul li{
 .about-me {
     margin: 3em auto;
     padding: 1em auto;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     color: #eee;
     /*font-weight: bold;*/
 }
