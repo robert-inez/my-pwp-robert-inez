@@ -11,7 +11,6 @@ ENV PORT $PORT
 EXPOSE $PORT 9229 9230
 
 # Run commands on the command line using the 'node' user
-RUN npm i npm@latest -g
 RUN mkdir /home/node/app
 WORKDIR ./home/node/app
 RUN chown node:node ./
@@ -19,3 +18,4 @@ USER node
 COPY package.json package-lock.json index.js ./
 RUN npm install --no-optional && npm cache clean --force
 CMD ["npm", "run", "dev"]
+
