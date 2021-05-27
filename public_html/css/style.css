@@ -82,11 +82,11 @@ body p, ul li{
 
 /*----------------------------about-me---------------------------*/
 .about-me {
-    margin: 3em auto;
-    padding: 1em auto;
+    margin-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 1.25rem;
     color: #eee;
-    /*font-weight: bold;*/
     }
 
 .about-me a {
@@ -100,7 +100,7 @@ body p, ul li{
     font-family: 'Oswald';
     }
 
-.about-me figcaption {
+.about-me figcaption{
     color: #eee !important;
     font-family: 'Didact Gothic';
     }
@@ -437,6 +437,11 @@ hr {
 /*-----------------------------timeline--------------------------*/
 
 /*-------------------------------form----------------------------*/
+.contact-form{
+    font-size: 1.25rem;
+    font-family: 'Didact Gothic';
+    }
+
 .submit {
     color: black;
     background: rgba(81, 99, 149, 0.83);
@@ -476,6 +481,12 @@ hr {
     /*border: 1px solid rgba( 255, 255, 255, 0.18 );*/
     }
 /*-------------------------------form----------------------------*/
+
+footer figcaption{
+    color: #eee !important;
+    font-family: 'Didact Gothic';
+    font-size: 1.25rem;
+    }
 
 .affiliation a, .affiliation p {
     text-decoration: none;
