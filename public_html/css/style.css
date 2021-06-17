@@ -151,6 +151,11 @@ body p, ul li{
     width: 60px;
     }
 
+.icon-geo {
+    height: 60px;
+    width: 100px;
+    }
+
 figcaption {
     font-weight: bold;
     }
